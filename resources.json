@@ -1,0 +1,20 @@
+{
+  "resources": [
+    {
+      "name": "University Library",
+      "type": "study",
+      "location": "Main Campus - Building A",
+      "program": "Mon-Fri 08:00 - 20:00",
+      "tags": ["study", "books", "quiet"],
+      "page": "pages/library.html"
+    },
+    {
+      "name": "Campus Cafeteria",
+      "type": "food",
+      "location": "Student Center",
+      "program": "Mon-Fri 09:00 - 18:00",
+      "tags": ["food", "coffee", "break"],
+      "page": "pages/cafeteria.html"
+    }
+  ]
+}

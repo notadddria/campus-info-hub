@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Info Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Campus Info Hub</h1>
+
+        <div class="nav">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="pages/library.html">Library</a>
+                <a href="pages/cafeteria.html">Cafeteria</a>
+                <a href="#events">Events</a>
+            </nav>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+        </div>
+    </header>
+
+    <main>
+
+        <h2>Welcome to the Campus Info Hub</h2>
+        <p>This website helps students find useful campus information.</p>
+
+        <h2>Filter</h2>
+        <button onclick="filterResources('all')">All</button>
+        <button onclick="filterResources('study')">Study</button>
+        <button onclick="filterResources('food')">Food</button>
+
+        <h2>Tags</h2>
+        <div id="tags"></div>
+
+        <h2>Resources</h2>
+        <div id="resources"></div>
+
+        <h2 id="events">Upcoming Events</h2>
+        <ul>
+            <li>Tech Conference - May 15</li>
+            <li>Hackathon Weekend - June 2</li>
+            <li>Student Festival - June 20</li>
+        </ul>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

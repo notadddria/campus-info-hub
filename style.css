@@ -1,0 +1,53 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#2c3e50;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.nav{
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.nav img{
+width:30px;
+height:30px;
+margin-left:20px;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+main{
+padding:30px;
+}
+
+.card{
+background:white;
+padding:15px;
+margin:10px 0;
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+ul{
+background:white;
+padding:20px;
+border-radius:8px;
+}
